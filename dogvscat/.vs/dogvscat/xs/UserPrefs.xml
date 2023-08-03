@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{C2A7D485-CE37-0A06-07E2-B40DC92F1333}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/startBtn.cs" Line="4" Column="35" />
+      <File FileName="Assets/Scripts/food.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="21" Column="19" />
+      <File FileName="Assets/Scripts/dog.cs" />
+      <File FileName="Assets/Scripts/cat.cs" Line="42" Column="18" />
+      <File FileName="Assets/Scripts/retryBtn.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f59fcf4c-27bd-4bf1-b43f-8fb796139b21" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
