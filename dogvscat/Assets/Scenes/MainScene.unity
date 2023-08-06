@@ -1234,6 +1234,7 @@ MonoBehaviour:
   dog: {fileID: 1371990094}
   normalCat: {fileID: 3275331163317955475, guid: 1235ca4e52eb440a4863ee162590873b, type: 3}
   fatCat: {fileID: 1826924486004229298, guid: ebf093b91f7b24c439717cf27c3ccd09, type: 3}
+  pirateCat: {fileID: 2514033038793261334, guid: fb4d86576795a4d7f820e58b060cdcf6, type: 3}
   retryBtn: {fileID: 1197585537}
   levelFront: {fileID: 123551161}
   levelText: {fileID: 536621639}
