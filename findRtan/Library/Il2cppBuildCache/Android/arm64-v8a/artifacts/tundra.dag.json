@@ -1,0 +1,251 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp /Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so\" --cachedirectory=\"/Users/gykim/dev/game-study/findRtan/Assets/../Library/il2cpp_android_arm64-v8a/il2cpp_cache\" --additional-include-directories=\"/Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include\" --additional-include-directories=\"/Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include\" --baselib-directory=\"/Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a\" --avoid-dynamic-library-copy --tool-chain-path=\"/Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --generatedcppdir=\"/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput\" --stats-output-dir=\"/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppStats\" --dotnetprofile=\"unityaot\"",
+      "Inputs": [
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Assembly-CSharp.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Assembly-CSharp_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Assembly-CSharp_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/GenericMethods.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/GenericMethods__1.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/GenericMethods__2.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Generics.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Generics__1.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Generics__2.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Generics__3.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Generics__4.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Generics__5.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCFieldValuesTable.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCTypeValuesTable.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCalculateFieldValues.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCalculateTypeValues.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCodeRegistration.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericAdjustorThunkTable.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericClassTable.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__1.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__10.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__11.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__12.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__13.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__14.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__15.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__2.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__3.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__4.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__5.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__6.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__7.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__8.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericComDefinitions__9.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericInstDefinitions.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodDefinitions.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodPointerTable.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodTable.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppInteropDataTable.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppInvokerTable.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppMetadataRegistration.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppMetadataUsage.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppTypeDefinitions.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Mono.Security.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Mono.Security_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Mono.Security_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Configuration.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Configuration_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Configuration_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Core.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Core_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Core_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System__1.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AndroidJNIModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AndroidJNIModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AnimationModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AnimationModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AudioModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AudioModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AudioModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule__1.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.GridModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.GridModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.GridModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.IMGUIModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.IMGUIModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputLegacyModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputLegacyModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.Physics2DModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.Physics2DModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.PhysicsModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.PhysicsModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SharedInternalsModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SharedInternalsModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SpriteShapeModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SpriteShapeModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TextRenderingModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TextRenderingModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TilemapModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TilemapModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UIModule.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UIModule_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UIModule_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI__1.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI__2.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI__3.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnresolvedVirtualCallStubs.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib_Attr.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib_CodeGen.c",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__1.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__10.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__11.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__12.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__13.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__14.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__15.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__16.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__17.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__2.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__3.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__4.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__5.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__6.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__7.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__8.cpp",
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib__9.cpp",
+        "/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser",
+        "/Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a/baselib.a",
+        "/Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a/libunityruntime.a",
+        "\"/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
+      ],
+      "Outputs": [
+        "/Users/gykim/dev/game-study/findRtan/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../../../../../../Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
+    },
+    {
+      "File": "../../../../../../../../../Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
+    },
+    {
+      "File": "../../../../../../../../../Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a"
+    },
+    {
+      "File": "../../../../../../../Library"
+    },
+    {
+      "File": "../armeabi-v7a/il2cppOutput"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../armeabi-v7a/il2cppOutput",
+      "Filter": "*.cpp"
+    },
+    {
+      "Path": "../armeabi-v7a/il2cppOutput",
+      "Filter": "*.c"
+    },
+    {
+      "Path": "../armeabi-v7a/il2cppOutput",
+      "Filter": "*.h"
+    },
+    {
+      "Path": "../../../../../../../../../Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}

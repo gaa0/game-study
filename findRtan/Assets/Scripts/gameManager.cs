@@ -13,6 +13,8 @@ public class gameManager : MonoBehaviour
     public GameObject secondCard;
     public GameObject endTxt;
     public Text timeTxt;
+    public AudioSource audioSource;
+    public AudioClip match;
     float time = 0.0f;
 
     void Awake()
@@ -27,14 +29,15 @@ public class gameManager : MonoBehaviour
 
         if (firstCardImage == secondCardImage)
         {
+            audioSource.PlayOneShot(match);
+
             firstCard.GetComponent<card>().destroyCard();
             secondCard.GetComponent<card>().destroyCard();
 
             int cardsLeft = GameObject.Find("cards").transform.childCount;
             if (cardsLeft == 2)
             {
-                endTxt.SetActive(true);
-                Time.timeScale = 0.0f;
+                Invoke("GameEnd", 1f);
             }
         }
         else
@@ -80,5 +83,11 @@ public class gameManager : MonoBehaviour
             endTxt.SetActive(true);
             Time.timeScale = 0.0f;
         }
+    }
+
+    void GameEnd()
+    {
+        Time.timeScale = 0.0f;
+        endTxt.SetActive(true);
     }
 }
