@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638277799380000000
-    m_Hash: 289947634
+      ticks: 638278664060000000
+    m_Hash: 3237910872
   m_LockFileStatus:
     m_FilePath: /Users/gykim/dev/game-study/findRtan/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638277799380000000
-    m_Hash: 2756387928
+      ticks: 638278664060000000
+    m_Hash: 926940246
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -714,28 +714,23 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.ads@4.4.2
+    - packageId: com.unity.ads@3.7.5
       testable: 0
       isDirectDependency: 1
-      version: 4.4.2
+      version: 3.7.5
       source: 1
-      resolvedPath: /Users/gykim/dev/game-study/findRtan/Library/PackageCache/com.unity.ads@4.4.2
+      resolvedPath: /Users/gykim/dev/game-study/findRtan/Library/PackageCache/com.unity.ads@3.7.5
       assetPath: Packages/com.unity.ads
       name: com.unity.ads
-      displayName: Advertisement Legacy
+      displayName: Advertisement
       author:
         name: 
         email: 
         url: 
       category: 
       type: asset
-      description: "Connect your game to the Unity Ads Network for iOS and Android
-        to quickly and effectively monetize your games.\n\nNOTE: Unity has joined
-        forces with ironSource and recommends using Unity LevelPlay for ad mediation
-        (instead of this package). \n\nThis package will still be supported but no
-        longer updated. To install Unity LevelPlay, use the Ads Mediation package
-        (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported
-        platforms:\n- Android\n- iOS\n"
+      description: Unity Ads is a video ad network for iOS and Android that allows
+        you to quickly and effectively monetize your games.
       status: 0
       errors: []
       versions:
@@ -864,13 +859,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 638161229410000000
-      documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
+      datePublishedTicks: 637635162230000000
+      documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/unity-ads-sdk.git
-        revision: 532b2db792ae728eedcc825080876b4e2c5f8544
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
+        revision: 0e92fa56fc4e4cd1fa305e76a911acdae6386b96
         path: 
     - packageId: com.unity.collab-proxy@2.0.4
       testable: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Linq;
 
 public class gameManager : MonoBehaviour
@@ -48,6 +49,11 @@ public class gameManager : MonoBehaviour
 
         firstCard = null;
         secondCard = null;
+    }
+
+    public void retryGame()
+    {
+        SceneManager.LoadScene("MainScene");
     }
 
     void Start()
